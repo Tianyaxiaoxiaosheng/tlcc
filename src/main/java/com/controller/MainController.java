@@ -18,6 +18,14 @@ public class MainController {
         return "";
     }
 
+    @RequestMapping(value = "web/login.do", method = RequestMethod.POST)
+    @ResponseBody
+    public String webLogin(String username,String password) {
+
+        System.out.println("login:username:"+username+"password:"+password);
+        return "webLogin server";
+    }
+
     @RequestMapping(value = "/ipadweb.do", method = RequestMethod.GET)
     public String ipadweb(){
 
@@ -25,7 +33,7 @@ public class MainController {
        return "ipadweb";
     }
 
-    @RequestMapping(value = "/mbweb.do", method = RequestMethod.GET)
+    @RequestMapping(value = "/mpweb.do", method = RequestMethod.GET)
     public String mbweb(){
 
 

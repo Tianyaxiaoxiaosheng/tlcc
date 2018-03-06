@@ -1,7 +1,7 @@
 /*横竖屏*/
 @media screen and (orientation:portrait){
     html{
-        height: 759px;
+        height: 600px;
     }
 }
 @media screen and (orientation:landscape){
@@ -37,7 +37,7 @@
 /*main view*/
 .view-main{
     /*在主View添加背景图，page透明，F7缓存页面，如此造成页面内容重叠，如果动态加载又不适合jsp*/
-    background-image: url("/images/background_main.png");
+    background-image: url("/images/ipad/background_main.png");
     /*background-color: #5ac8fa;*/
 }
 
@@ -89,7 +89,8 @@
 }
 .page >.page-content >.row{
 
-    height: 60%;
+    /*height: 60%;*/
+    /*使用width时，水平居中失效*/
     /*width: 100%;*/
     /*background-color: #5ac8fa;*/
 
@@ -98,8 +99,8 @@
     top:50%;
     transform: translateY(-50%);
 
-    padding-left: 10%;
-    padding-right: 10%;
+    /*padding-left: 10%;*/
+    /*padding-right: 10%;*/
 }
 .page >.page-content >.row >[class*="col-"]{
 
@@ -126,3 +127,39 @@
     position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
 }
 
+
+
+/*二级房间导航栏*/
+.page >.page-content >.row .toolbar{
+    background-color:rgba(0,0,0,0.3);
+
+    height: 70pt;
+
+    border-radius: 10pt 10pt 0pt 0pt;
+}
+
+
+/*LIGHTS page*/
+[data-page="lights"] >.page-content >.row{
+
+    height: 64%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+/*Aircon page*/
+[data-page="aircon"] >.page-content >.row{
+
+    height: 60%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+/*Service page*/
+[data-page="service"] >.page-content >.row{
+
+    height: 60%;
+    padding-right: 10%;
+    padding-left: 10%;
+}

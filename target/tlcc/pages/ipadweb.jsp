@@ -89,7 +89,19 @@
                     <div class="page-content">
                         <div class="row">
                             <div class="col-100">
-                                <p>aircon</p>
+                                <div class="toolbar tabbar tabbar-scrollable">
+                                    <div class="toolbar-inner">
+                                        <a href="#tab11" class="tab-link active">tab1</a>
+                                        <a href="#tab12" class="tab-link">tab2</a>
+                                    </div>
+                                </div>
+
+                                <div class="tabs-animated-wrap">
+                                    <div class="tabs">
+                                        <div class="tab active" id="tab11"><p>tab1</p></div>
+                                        <div class="tab" id="tab12"><p>tab2</p></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
