@@ -1,5 +1,7 @@
 package com.controller;
 
+import com.comet4j.Comet4jUtil;
+import com.socket.TcpUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -15,10 +17,13 @@ public class MainController {
     @RequestMapping(value = "/bind.do", method = RequestMethod.POST)
     @ResponseBody
     public String bind(String clientId, String connId){
-        return "";
+        boolean isSuccess = Comet4jUtil.getInstance().bindingConnect(clientId, connId);
+        Comet4jUtil.getInstance().showCometConnectList();
+
+        return "bind "+isSuccess;
     }
 
-    @RequestMapping(value = "web/login.do", method = RequestMethod.POST)
+    @RequestMapping(value = "/web/login.do", method = RequestMethod.POST)
     @ResponseBody
     public String webLogin(String username,String password) {
 
@@ -38,5 +43,20 @@ public class MainController {
 
 
         return "mpweb";
+    }
+
+    @RequestMapping(value = "/nettest.do", method = RequestMethod.GET)
+    public String nettest(){
+
+        return "nettest";
+    }
+
+    @RequestMapping(value = "/send.do", method = RequestMethod.POST)
+    @ResponseBody
+    public String send(String str){
+
+        boolean isSuccess = TcpUtil.getInstance().sendByTcp(str);
+
+        return "send "+isSuccess;
     }
 }

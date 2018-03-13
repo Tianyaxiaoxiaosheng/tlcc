@@ -26,6 +26,26 @@ $$(document).on('pageBeforeAnimation', function (e) {
 
 });
 
+//获得焦点和失去焦点在移动设备上不敏感
+//触摸事件在电脑端不起作用
+$$(".bottom-toolbar a").on('focus', function () {
+    // $$(this).addClass('active');
+    // console.log(this);
+    // $$(this).css('color', 'yellow');
+    // alert("123");
+});
+$$(".bottom-toolbar a").on('blur', function () {
+    // $$(this).removeClass('active');
+    // console.log(this);
+    // $$(this).css('color', 'white');
+});
+
+$$(".bottom-toolbar a").on('click', function (){
+
+    $$(".bottom-toolbar a").removeClass('active');
+
+    $$(this).addClass('active');
+});
 
 
 function addEventForBottomToolbar() {

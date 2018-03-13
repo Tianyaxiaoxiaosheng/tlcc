@@ -30,7 +30,6 @@
 }
 
 
-
 /**
 **主视图以及子页面的设置
  */
@@ -45,9 +44,9 @@
 
 /*Top navbar*/
 .view-main >.navbar{
-    /*background-color: #5ac8fa;*/
     height: 10%;
     background-color: transparent;
+    /*border-style: none;*/
 }
 
 /*bottom toolbar*/
@@ -69,13 +68,69 @@
 }
 
 .view-main >.pages{
+
     background-color: transparent;
+
 }
 .view-main >.pages >.page{
     background-color: transparent;
 
     /*直接为所有页面添加统一背景，如此由于背景会造成明显的过度效果*/
     /*background-image: url("/images/background_main.png");*/
+}
+
+
+/**
+**底部工具条
+ */
+/*.bottom-toolbar >.row{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+.bottom-toolbar .row{
+    height: 100%;
+    width: 100%;
+}
+.bottom-toolbar div[class*="col-"]{
+
+    height: 100%;
+
+    /*设置文本或img标签等一些内联对象（或与之类似的元素）的居中*/
+    text-align: center;
+
+
+}
+.bottom-toolbar div[class*="col-"] a{
+
+    height: 100%;
+    width: 30%;
+
+    text-align: center;
+
+    display: inline-block;
+
+    color: white;
+}
+
+.bottom-toolbar div[class*="col-"] a.active{
+    color: yellow;
+}
+
+.bottom-toolbar div[class*="col-"] a >div{
+    /*行基线*/
+    line-height: 1.5em;
+
+    padding-top: 20%;
+
+    text-align: center;
+}
+
+.bottom-toolbar .zh{
+    font-size: 1.8em;
+    /*padding-top: 20pt;*/
+}
+.bottom-toolbar .en{
+
 }
 
 
@@ -138,6 +193,8 @@
     height: 70pt;
 
     border-radius: 10pt 10pt 0pt 0pt;
+
+
 }
 
 

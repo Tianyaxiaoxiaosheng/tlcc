@@ -19,11 +19,11 @@
     <!-- Your app title -->
     <title>酒店客控</title>
     <!-- Path to Framework7 Library CSS, Material Theme -->
-    <link rel="stylesheet" href="/framework7/framework7.ios.min.css">
+    <link rel="stylesheet" href="../framework7/framework7.ios.min.css">
     <!--theme-->
-    <link rel="stylesheet" href="/framework7/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="../framework7/framework7.ios.colors.min.css">
     <!-- Path to your custom app styles-->
-    <link rel="stylesheet" href="/css/mpweb.css">
+    <link rel="stylesheet" href="../css/mpweb.css">
 </head>
 <body>
 
@@ -196,22 +196,22 @@
                 <div class="page-content">
                     <div class="row">
                         <div class="col-50">
-                            <a href="#lights"><img src="/images/phone/light.png"></a>
+                            <a href="#lights"><img src="../images/phone/light.png"></a>
                             <br/>
                             <span>灯光</span>
                         </div>
                         <div class="col-50">
-                            <a href="#aircon"><img src="/images/phone/aircon.png"></a>
+                            <a href="#aircon"><img src="../images/phone/aircon.png"></a>
                             <br/>
                             <span>空调</span>
                         </div>
                         <div class="col-50">
-                            <a href="#service"><img src="/images/phone/service.png"></a>
+                            <a href="#service"><img src="../images/phone/service.png"></a>
                             <br/>
                             <span>服务</span>
                         </div>
                         <div class="col-50">
-                            <a href="#setting"><img src="/images/phone/set.png"></a>
+                            <a href="#setting"><img src="../images/phone/set.png"></a>
                             <br/>
                             <span>设置</span>
                         </div>
@@ -235,7 +235,7 @@
                             <div class="tab">
                                 <div class="row">
                                     <div class="col-50">
-                                        <img  class="img-sw" isOpen=false src="/images/phone/OFF3.png">
+                                        <img  class="img-sw" isOpen=false src="../images/phone/OFF3.png">
                                         <br/>
                                         <span class="zh">中文</span>
                                         <br/>
@@ -271,8 +271,8 @@
                                 <div class="card aircon-show">
                                     <div class="row no-gutter">
                                         <div class="col-40 temperature-col"><span class="temperature-show">26</span></div>
-                                        <div class="col-30 img-show"><img src="/images/phone/show_code.png"></div>
-                                        <div class="col-30 img-show"><img src="/images/phone/show_speed1.png"></div>
+                                        <div class="col-30 img-show"><img src="../images/phone/show_code.png"></div>
+                                        <div class="col-30 img-show"><img src="../images/phone/show_speed1.png"></div>
 
                                         <div class="col-100"><span>设置温度(℃):</span>26</div>
 
@@ -283,49 +283,49 @@
                                     <div class="row no-gutter">
 
                                         <div class="col-33  one-col">
-                                            <img class="img-ac" isSelected=false src="/images/phone/speed_auto.png" aircon-btn-tag=4>
+                                            <img class="img-ac" isSelected=false src="../images/phone/speed_auto.png" aircon-btn-tag=4>
                                             <br/>
                                             <span>Auto</span>
                                         </div>
                                         <div class="col-33">
-                                            <img class="img-ac" isSelected=false src="/images/phone/Shengwen.png" aircon-btn-tag=8>
+                                            <img class="img-ac" isSelected=false src="../images/phone/Shengwen.png" aircon-btn-tag=8>
                                             <br/>
-                                            <img class="img-ac" isSelected=false src="/images/phone/JiangWen.png" aircon-btn-tag=9>
+                                            <img class="img-ac" isSelected=false src="../images/phone/JiangWen.png" aircon-btn-tag=9>
                                         </div>
                                         <div class="col-33  one-col">
-                                            <img class="img-ac" isSelected=false src="/images/phone/speed_stop.png" aircon-btn-tag=0>
+                                            <img class="img-ac" isSelected=false src="../images/phone/speed_stop.png" aircon-btn-tag=0>
                                             <br/>
                                             <span>Stop</span>
                                         </div>
 
                                         <div class="col-33">
-                                            <img class="img-ac" isSelected=false src="/images/phone/speed_low.png" aircon-btn-tag=1>
+                                            <img class="img-ac" isSelected=false src="../images/phone/speed_low.png" aircon-btn-tag=1>
                                             <br/>
                                             <span>Low speed</span>
                                         </div>
                                         <div class="col-33">
-                                            <img class="img-ac" isSelected=false src="/images/phone/speed_medium.png" aircon-btn-tag=2>
+                                            <img class="img-ac" isSelected=false src="../images/phone/speed_medium.png" aircon-btn-tag=2>
                                             <br/>
                                             <span>Medium speed</span>
                                         </div>
                                         <div class="col-33">
-                                            <img class="img-ac" isSelected=false src="/images/phone/speed_high.png" aircon-btn-tag=3>
+                                            <img class="img-ac" isSelected=false src="../images/phone/speed_high.png" aircon-btn-tag=3>
                                             <br/>
                                             <span>High speed</span>
                                         </div>
 
                                         <div class="col-33">
-                                            <img class="img-ac" isSelected=false src="/images/phone/model_cooling.png" aircon-btn-tag=5>
+                                            <img class="img-ac" isSelected=false src="../images/phone/model_cooling.png" aircon-btn-tag=5>
                                             <br/>
                                             <span>Cooling</span>
                                         </div>
                                         <div class="col-33">
-                                            <img class="img-ac" isSelected=false src="/images/phone/model_heating.png" aircon-btn-tag=6>
+                                            <img class="img-ac" isSelected=false src="../images/phone/model_heating.png" aircon-btn-tag=6>
                                             <br/>
                                             <span>Heating</span>
                                         </div>
                                         <div class="col-33">
-                                            <img class="img-ac" isSelected=false src="/images/phone/model_ventilation.png" aircon-btn-tag=7>
+                                            <img class="img-ac" isSelected=false src="../images/phone/model_ventilation.png" aircon-btn-tag=7>
                                             <br/>
                                             <span>Ventilation</span>
                                         </div>
@@ -358,22 +358,22 @@
                 <div class="page-content">
                     <div class="row">
                         <div class="col-50">
-                            <img class="img-sv" isSelected=false tag=0 src="/images/phone/Service_QL.png">
+                            <img class="img-sv" isSelected=false tag=0 src="../images/phone/Service_QL.png">
                             <br/>
                             <span>清理</span>
                         </div>
                         <div class="col-50">
-                            <img class="img-sv" isSelected=false tag=1 src="/images/phone/Service_WR.png">
+                            <img class="img-sv" isSelected=false tag=1 src="../images/phone/Service_WR.png">
                             <br/>
                             <span>勿扰</span>
                         </div>
                         <div class="col-50">
-                            <img class="img-sv" isSelected=false tag=2 src="/images/phone/Service_SH.png">
+                            <img class="img-sv" isSelected=false tag=2 src="../images/phone/Service_SH.png">
                             <br/>
                             <span>稍后</span>
                         </div>
                         <div class="col-50">
-                            <img class="img-sv" isSelected=false tag=3 src="/images/phone/Service_SOS.png">
+                            <img class="img-sv" isSelected=false tag=3 src="../images/phone/Service_SOS.png">
                             <br/>
                             <span>求助</span>
                         </div>
@@ -386,59 +386,59 @@
                 <div class="page-content">
                     <div class="row">
                         <div class="col-33">
-                            <img  src="/images/phone/ON1.png"><br/>
+                            <img  src="../images/phone/ON1.png"><br/>
                             <span>床头灯</span>
                         </div>
                         <div class="col-33">
-                            <img src="/images/phone/ON1.png"><br/>
+                            <img src="../images/phone/ON1.png"><br/>
                             <span>床头灯</span>
                         </div>
                         <div class="col-33">
-                            <img src="/images/phone/ON1.png"><br/>
+                            <img src="../images/phone/ON1.png"><br/>
                             <span>床头灯</span>
                         </div>
 
                         <div class="col-50">
-                            <img src="/images/phone/ON0.png"><br/>
+                            <img src="../images/phone/ON0.png"><br/>
                             <span>床头灯</span>
                         </div>
                         <div class="col-50">
-                            <img src="/images/phone/ON0.png"><br/>
+                            <img src="../images/phone/ON0.png"><br/>
                             <span>床头灯</span>
                         </div>
 
                         <div class="col-50">
-                            <img src="/images/phone/ON2.png"><br/>
+                            <img src="../images/phone/ON2.png"><br/>
                             <span>床头灯</span>
                         </div>
                         <div class="col-50">
-                            <img src="/images/phone/OFF2.png"><br/>
+                            <img src="../images/phone/OFF2.png"><br/>
                             <span>床头灯</span>
                         </div>
 
                         <div class="col-33">
-                            <img src="/images/phone/OFF2.png"><br/>
+                            <img src="../images/phone/OFF2.png"><br/>
                             <span>床头灯</span>
                         </div>
                         <div class="col-33">
-                            <img src="/images/phone/OFF2.png"><br/>
+                            <img src="../images/phone/OFF2.png"><br/>
                             <span>床头灯</span>
                         </div>
                         <div class="col-33">
-                            <img src="/images/phone/OFF2.png"><br/>
+                            <img src="../images/phone/OFF2.png"><br/>
                             <span>床头灯</span>
                         </div>
 
                         <div class="col-33">
-                            <img src="/images/phone/OFF3.png"><br/>
+                            <img src="../images/phone/OFF3.png"><br/>
                             <span>床头灯</span>
                         </div>
                         <div class="col-33">
-                            <img src="/images/phone/OFF3.png"><br/>
+                            <img src="../images/phone/OFF3.png"><br/>
                             <span>床头灯</span>
                         </div>
                         <div class="col-33">
-                            <img src="/images/phone/ON3.png"><br/>
+                            <img src="../images/phone/ON3.png"><br/>
                             <span>床头灯</span>
                         </div>
                     </div>
@@ -563,10 +563,10 @@
 
 
 <!-- Path to Framework7 Library JS-->
-<script type="text/javascript" src="/framework7/framework7.min.js"></script>
+<script type="text/javascript" src="../framework7/framework7.min.js"></script>
 <!--<script type="text/javascript" src="/hcsdemo3/js/jquery-3.2.1.js"></script>-->
 <!-- Path to your app js-->
-<script type="text/javascript" src="/js/mpweb.js"></script>
+<script type="text/javascript" src="../js/mpweb.js"></script>
 
 </body>
 </html>

@@ -58,7 +58,7 @@ public class UdpUtil {
 
                 try {
 
-                    System.out.println("ip:"+ InetAddress.getLocalHost().getHostAddress()+"\tport:"+localSocket.getLocalPort());
+                    System.out.println("UDP ip:"+ InetAddress.getLocalHost().getHostAddress()+"\tport:"+localSocket.getLocalPort());
 
                     while (isReceive){
                         localSocket.receive(recePacket);
