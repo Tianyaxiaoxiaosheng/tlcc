@@ -36,7 +36,7 @@
 /*main view*/
 .view-main{
     /*在主View添加背景图，page透明，F7缓存页面，如此造成页面内容重叠，如果动态加载又不适合jsp*/
-    background-image: url("../images/ipad/background_main.png");
+    background-image: url("/tlcc/images/ipad/background_main.png");
     width: 1050px;
     height: 768px;
     /*background-color: #5ac8fa;*/

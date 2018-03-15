@@ -37,7 +37,7 @@
 @font-face {
 
     font-family: SimYou; /*这里是说明调用来的字体名字*/
-    src: url(../font/SIMYOU.TTF); /*这里是字体文件路径*/
+    src: url(/tlcc/font/SIMYOU.TTF); /*这里是字体文件路径*/
 }
 
 
@@ -47,7 +47,7 @@
 
 /*aircon*/
 div[data-page="aircon"]{
-    background-image: url(../images/phone/bg1.png);
+    background-image: url(/tlcc/images/phone/bg1.png);
 }
 div[data-page="aircon"] div.toolbar{
     /*background-color:#000000;*/
@@ -131,7 +131,7 @@ div#aircon-tabs >div.tab{
 
 /*lights*/
 div[data-page="lights"]{
-    background-image: url(../images/phone/bg1.png);
+    background-image: url(/tlcc/images/phone/bg1.png);
 
 }
 div[data-page="lights"] div.toolbar{
@@ -174,7 +174,7 @@ div#lights-tabs div[class*="col-"] a{
 
 /*service*/
 div[data-page="service"]{
-    background-image: url(../images/phone/bg1.png);
+    background-image: url(/tlcc/images/phone/bg1.png);
 
 }
 
@@ -205,7 +205,7 @@ div[data-page="service"] div[class*="col-"] span{
 /*index*/
 div[data-page="index"]{
     /*background-image: url(/hcsdemo3/images/bg-index.jpg);*/
-    background-image: url(../images/phone/bg1.png);
+    background-image: url(/tlcc/images/phone/bg1.png);
 
 
     /*background-color: #4cd964;*/

@@ -17,11 +17,11 @@
     <!-- Your app title -->
     <title>My App</title>
     <!-- Path to Framework7 iOS CSS theme styles-->
-    <link rel="stylesheet" href="/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="/tlcc/css/framework7.ios.min.css">
     <!-- Path to Framework7 iOS related color styles -->
-    <link rel="stylesheet" href="/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="/tlcc/css/framework7.ios.colors.min.css">
     <!-- Path to your custom app styles-->
-    <link rel="stylesheet" href="/css/ipadweb.css">
+    <link rel="stylesheet" href="/tlcc/css/ipadweb.css">
 </head>
 <body>
 <!-- Status bar overlay for full screen mode (PhoneGap) -->
@@ -167,8 +167,8 @@
     </div>
 </div>
 <!-- Path to Framework7 Library JS-->
-<script type="text/javascript" src="/js/framework7.min.js"></script>
+<script type="text/javascript" src="/tlcc/js/framework7.min.js"></script>
 <!-- Path to your app js-->
-<script type="text/javascript" src="/js/ipadweb.js"></script>
+<script type="text/javascript" src="/tlcc/js/ipadweb.js"></script>
 </body>
 </html>

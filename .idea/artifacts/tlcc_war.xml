@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="tlcc:war">
+  <artifact type="war" build-on-make="true" name="tlcc:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="tlcc.war">
       <element id="artifact" artifact-name="tlcc:war exploded" />

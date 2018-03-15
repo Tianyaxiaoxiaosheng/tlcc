@@ -5,11 +5,29 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+  <!--comet4j-->
+  <listener>
+  <description>Comet Listener</description>
+  <listener-class>org.comet4j.core.CometAppListener</listener-class>
+  </listener>
+
   <!--监听器配置-->
   <listener>
     <description>ServletContextListener</description>
     <listener-class>com.ServletContextListenerImpl</listener-class>
   </listener>
+
+  <!--comet 连接监听-->
+  <servlet>
+  <description>CometServlet</description>
+  <display-name>CometServlet</display-name>
+  <servlet-name>CometServlet</servlet-name>
+  <servlet-class>org.comet4j.core.CometServlet</servlet-class> </servlet>
+
+  <servlet-mapping>
+  <servlet-name>CometServlet</servlet-name>
+  <url-pattern>/conn</url-pattern>
+  </servlet-mapping>
 
   <!--springmvc 配置-->
   <servlet>

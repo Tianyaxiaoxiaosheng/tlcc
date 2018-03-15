@@ -11,6 +11,7 @@
     <!--静态资源访问-->
     <mvc:default-servlet-handler/>
 
+
     <!--开启注解-->
     <mvc:annotation-driven/>
 

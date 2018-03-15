@@ -17,19 +17,24 @@ var mainView = myApp.addView('.view-main', {
 });
 
 
-var serviceBaseImgLoc = "../images/phone/";
+var serviceBaseImgLoc = "/tlcc/images/phone/";
 var serviceImg1Array = new Array("Service_QL.png", "Service_WR.png", "Service_SH.png", "Service_SOS.png");
 var serviceImg2Array = new Array("Service_QL2.png", "Service_WR2.png", "Service_SH2.png", "Service_SOS2.png");
-var airconBaseImgLoc = "../images/phone/";
+var airconBaseImgLoc = "/tlcc/images/phone/";
 var airconImg1Array = new Array("speed_stop.png", "speed_low.png", "speed_medium.png", "speed_high.png", "speed_auto.png"
     , "model_cooling.png", "model_heating.png", "model_ventilation.png", "Shengwen.png", "JiangWen.png");
 var airconImg2Array = new Array("speed_stop_2.png", "speed_low_2.png", "speed_medium_2.png", "speed_high_2.png", "speed_auto_2.png"
     , "model_cooling_2.png", "model_heating_2.png", "model_ventilation_2.png", "Shengwen2.png", "JiangWen2.png");
 
 
-var lightsBaseImgLoc = "../images/phone/";
+var lightsBaseImgLoc = "/tlcc/images/phone/";
 var swONSrc = lightsBaseImgLoc + "ON3.png";
 var swOFFSrc = lightsBaseImgLoc + "OFF3.png";
+
+
+var propertiesUrl = "/tlcc/properties/";
+
+var login_url = "/tlcc/web/login.do";
 
 
 //dom loading finish event
@@ -414,7 +419,7 @@ function getApartmentData() {
     console.log("Get Apartment Data");
 
     var apartment = 1;
-    var apartment_url = "../properties/apartment"+apartment+".json";
+    var apartment_url = propertiesUrl+"apartment"+apartment+".json";
 
     // $$.ajax(apartment_url, function (data) {
     //
@@ -439,8 +444,6 @@ function login() {
     var loginFormData = myApp.formToJSON('#login-form');
     // console.log(loginFormData);
     // console.log(JSON.stringify(loginFormData));
-    
-    var login_url = "../web/login.do";
     
     $$.ajax({
         url:login_url,

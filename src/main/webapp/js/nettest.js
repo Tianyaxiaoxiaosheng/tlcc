@@ -4,8 +4,12 @@
 
 var cometConId = null;
 
+var cometConnUrl = "/tlcc/conn";
+var bindUrl = "/tlcc/bind.do";
+var sendUrl = "/tlcc/send.do";
+
 function startConn() {
-    JS.Engine.start("/conn");
+    JS.Engine.start(cometConnUrl);
 
 }
 
@@ -38,7 +42,7 @@ function cometProcess() {
 }
 
 function bind() {
-    $.post("/bind.do",
+    $.post(bindUrl,
         {
             clientId:"123456",
             connId:cometConId
@@ -51,7 +55,7 @@ function bind() {
 }
 
 function sendMessage() {
-    $.post("/send.do",
+    $.post(sendUrl,
         {
             str:"123456"
         },

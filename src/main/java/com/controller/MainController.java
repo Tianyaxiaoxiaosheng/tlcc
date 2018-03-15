@@ -45,10 +45,9 @@ public class MainController {
         return "mpweb";
     }
 
-    @RequestMapping(value = "/nettest.do", method = RequestMethod.GET)
-    public String nettest(){
-
-        return "nettest";
+    @RequestMapping(value = "/comet4jtest.do", method = RequestMethod.GET)
+    public String comet4jtest(){
+        return "comet4jtest";
     }
 
     @RequestMapping(value = "/send.do", method = RequestMethod.POST)
