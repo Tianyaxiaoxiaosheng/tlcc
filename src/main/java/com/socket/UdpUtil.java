@@ -84,7 +84,7 @@ public class UdpUtil {
 
     private void stopReceive(){
 
-        isReceive = false;
+        this.isReceive = false;
     }
 
 
@@ -95,13 +95,14 @@ public class UdpUtil {
      */
    public boolean send(String sendStr, String keyStr){
 
-       SocketAddress targetAddress = new SocketAddress("172.144.1.134", 6000);
+       String targetIp = "172.144.1.134";
+       int targetPort = 6000;
 
        InetAddress address = null;
 
        try {
-           address = InetAddress.getByName(targetAddress.getIp());
-           int port = targetAddress.getPort();
+           address = InetAddress.getByName(targetIp);
+           int port = targetPort;
            byte[] sendBuf = sendStr.getBytes();
 
            DatagramPacket packet = new DatagramPacket(sendBuf, sendBuf.length, address, port);

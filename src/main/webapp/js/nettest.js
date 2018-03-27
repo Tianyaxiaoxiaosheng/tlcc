@@ -8,6 +8,15 @@ var cometConnUrl = "/tlcc/conn";
 var bindUrl = "/tlcc/bind.do";
 var sendUrl = "/tlcc/send.do";
 
+function controlMessage(clientId, content, rcuIp, rcuPort) {
+    this.clientId = clientId;
+    this.content = content;
+    this.rcuIp = rcuIp;
+    this.rcuPort = rcuPort;
+}
+
+var cmTemp = new controlMessage("12345", "control order", "172.144.1.101", 7000);
+
 function startConn() {
     JS.Engine.start(cometConnUrl);
 
@@ -57,7 +66,7 @@ function bind() {
 function sendMessage() {
     $.post(sendUrl,
         {
-            str:"123456"
+            str:JSON.stringify(cmTemp)
         },
         function (data,status) {
             $("#sendReturn").append("ajax Status: " + status+"\tReturn Data: " + data);

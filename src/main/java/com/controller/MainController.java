@@ -1,7 +1,8 @@
 package com.controller;
 
 import com.comet4j.Comet4jUtil;
-import com.socket.TcpUtil;
+import com.domain.TCPMessageType;
+import com.socket.TCPMessageProcessUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -54,7 +55,7 @@ public class MainController {
     @ResponseBody
     public String send(String str){
 
-        boolean isSuccess = TcpUtil.getInstance().sendByTcp(str);
+        boolean isSuccess = TCPMessageProcessUtil.codeTCPMessageAndSend(TCPMessageType.CONTROL, str);
 
         return "send "+isSuccess;
     }

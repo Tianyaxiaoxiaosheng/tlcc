@@ -17,7 +17,7 @@ public class ServletContextListenerImpl implements ServletContextListener {
 
         Comet4jUtil.getInstance().initializationComet4j();
 
-        socketInitialization();
+//        socketInitialization();
 
         tcpServerInitialization();
     }

@@ -1,8 +1,9 @@
 package com.socket;
 
-import com.comet4j.Comet4jUtil;
-
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.net.Socket;
 
 /**
@@ -59,11 +60,10 @@ public class TcpSocketThread extends Thread {
             while ((message = in.readLine()) != null){
                 System.out.println("TCP Client Message:" + message);
 
-                boolean isSuccess = false;
-
-                isSuccess = Comet4jUtil.getInstance().sendMessageToAll(message);
-
-                sendMessage("status: "+isSuccess);
+                new TCPMessageProcessThread(message).start();
+//                boolean isSuccess = false;
+//                isSuccess = Comet4jUtil.getInstance().sendMessageToAll(message);
+//                sendMessage("status: "+isSuccess);
             }
 
 
@@ -75,8 +75,8 @@ public class TcpSocketThread extends Thread {
 
     public boolean sendMessage(String str) {
 
-
         try {
+            str = str+"\n";
             out.write(str.getBytes());
             return true;
         } catch (IOException e) {

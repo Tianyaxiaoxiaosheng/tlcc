@@ -1,5 +1,7 @@
 package com.socket;
 
+import com.comet4j.Comet4jUtil;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -28,6 +30,9 @@ public class TcpUtil {
         return sharedTcpUtil;
     }
 
+    public void setTcpSocketThread(TcpSocketThread tcpSocketThread) {
+        this.tcpSocketThread = tcpSocketThread;
+    }
 
     /**
      * Opening Tcp Server
@@ -40,6 +45,7 @@ public class TcpUtil {
             System.out.println("TCP ip:"+serverSocket.getInetAddress().getHostAddress()+"\tport:"+serverSocket.getLocalPort());
 
             new Thread(new Runnable() {
+
                 @Override
                 public void run() {
                     while (isAccept){
@@ -47,11 +53,14 @@ public class TcpUtil {
                             //开始监听等待连接
                             Socket socket = serverSocket.accept();
 
-                            System.out.println("TCP Client IP: "+socket.getInetAddress().getHostAddress()+"\tPort: "+socket.getPort());
-                            System.out.println();
+                            String str = "TCP Client IP: "+socket.getInetAddress().getHostAddress()+"\tPort: "+socket.getPort();
+                            System.out.println(str);
 
                             tcpSocketThread = new TcpSocketThread(socket);
                             tcpSocketThread.start();
+
+                            //给web客户端广播
+                            Comet4jUtil.getInstance().sendMessageToAll(str);
 
                         } catch (IOException e) {
                             e.printStackTrace();
@@ -91,6 +100,8 @@ public class TcpUtil {
         if (this.tcpSocketThread != null){
 
             isSuccess = this.tcpSocketThread.sendMessage(str);
+        }else {
+            System.out.println("tcpSocketThread is null");
         }
 
         return isSuccess;
