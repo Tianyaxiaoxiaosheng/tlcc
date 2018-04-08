@@ -5,6 +5,8 @@ import com.domain.TCPMessage;
 import com.domain.TCPMessageType;
 import net.sf.json.JSONObject;
 
+import java.util.Date;
+
 /**
  * Created by jony on 3/27/18.
  */
@@ -32,4 +34,24 @@ public class TCPMessageProcessUtil {
 
         return isSuccess;
     }
+
+    public static boolean codeHeartBeatMessageAndSend(){
+
+        String content = String.valueOf(new Date().getTime());
+
+        TCPMessage tcpMessage = new TCPMessage(TCPMessageType.HEART_BEAT, content);
+        JSONObject jsonObject = JSONObject.fromObject(tcpMessage);
+
+        boolean isSuccess = sharedTcpUtil.sendByTcp(jsonObject.toString());
+        System.out.println("Heart Beat send "+isSuccess);
+
+        return isSuccess;
+    }
 }
+
+
+
+
+
+
+

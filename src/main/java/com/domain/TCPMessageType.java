@@ -5,5 +5,5 @@ package com.domain;
  */
 public enum TCPMessageType {
 
-    CONTROL, STATE
+    CONTROL, STATE, REGISTER, REGISTER_REPLY, HEART_BEAT, NONE
 }

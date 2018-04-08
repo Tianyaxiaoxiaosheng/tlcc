@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.Socket;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * Created by jony on 3/12/18.
@@ -17,6 +19,9 @@ public class TcpSocketThread extends Thread {
 
     private BufferedReader in = null;
     private OutputStream out = null;
+
+
+    private Timer timer = null;
 
 
 
@@ -39,21 +44,11 @@ public class TcpSocketThread extends Thread {
     @Override
     public void run() {
 
-        try {
+          //started heart beat
 
-//            while (true) {
-//
-////                System.out.println("Wait ......");
-//                int length = in.read(); //会导致丢失首个字符
-//                System.out.println("Received, length: "+length+", analysis...");
-//
-//                char[] body = new char[length];
-//                in.read(body);
-//                String message = new String(body);
-//
-//
-//                System.out.println("Client Message:" + message);
-//            }
+        heartBeat();
+
+        try {
 
             String message = null;
 //            只有遇到"/r"、"/n"、"/r/n"才会返回
@@ -84,5 +79,19 @@ public class TcpSocketThread extends Thread {
         }
 
         return false;
+    }
+
+    private void heartBeat(){
+
+        this.timer = new Timer();
+
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+
+                TCPMessageProcessUtil.codeHeartBeatMessageAndSend();
+            }
+        }, 10*1000, 10*1000);
+
     }
 }
