@@ -7,38 +7,187 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf8170e7-5143-4722-971b-57091cb740fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/domain/ControlMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/domain/TCPMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/domain/TCPMessageType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessUtil.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/socket/SocketAddress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/socket/SocketAddress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/SocketAddress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reimport" afterPath="$PROJECT_DIR$/reimport" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/comet4j-tomcat7.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/comet4j-tomcat7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/servlet-api.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/servlet-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/font/SIMYOU.TTF" afterPath="$PROJECT_DIR$/src/main/webapp/font/SIMYOU.TTF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/ipad/background_main.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/ipad/background_main.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/JiangWen.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/JiangWen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/JiangWen2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/JiangWen2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/OFF0.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/OFF0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/OFF1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/OFF1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/OFF2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/OFF2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/OFF3.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/OFF3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/ON0.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/ON0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/ON1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/ON1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/ON2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/ON2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/ON3.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/ON3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_QL.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_QL.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_QL2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_QL2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_SH.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_SH.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_SH2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_SH2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_SOS.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_SOS.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_SOS2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_SOS2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_WR.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_WR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_WR2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Service_WR2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Shengwen.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Shengwen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/Shengwen2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/Shengwen2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/aircon.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/aircon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/bg1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/bg1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/light.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/model_cooling.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/model_cooling.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/model_cooling_2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/model_cooling_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/model_heating.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/model_heating.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/model_heating_2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/model_heating_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/model_ventilation.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/model_ventilation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/model_ventilation_2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/model_ventilation_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/service.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/service.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/set.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/set.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/show_code.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/show_code.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/show_speed1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/show_speed1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_auto.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_auto.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_auto_2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_auto_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_high.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_high.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_high_2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_high_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_low.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_low.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_low_2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_low_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_medium.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_medium.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_medium_2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_medium_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_stop.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_stop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_stop_2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/phone/speed_stop_2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ServletContextListenerImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ServletContextListenerImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/controller/MainController.class" afterPath="$PROJECT_DIR$/target/classes/com/controller/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/domain/Person.class" afterPath="$PROJECT_DIR$/target/classes/com/domain/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/socket/UdpUtil$1.class" afterPath="$PROJECT_DIR$/target/classes/com/socket/UdpUtil$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/socket/UdpUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/socket/UdpUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/util/MybatisUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/util/MybatisUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/UserTest.class" afterPath="$PROJECT_DIR$/target/test-classes/UserTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc.war" afterPath="$PROJECT_DIR$/target/tlcc.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/ServletContextListenerImpl.class" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/ServletContextListenerImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/controller/MainController.class" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/controller/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/domain/Person.class" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/domain/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/UdpUtil$1.class" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/UdpUtil$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/UdpUtil.class" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/UdpUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/util/MybatisUtil.class" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/util/MybatisUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/aopalliance-1.0.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/comet4j-tomcat7.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/comet4j-tomcat7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/hamcrest-core-1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/jcommander-1.64.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/jcommander-1.64.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/jtds-1.3.1.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/jtds-1.3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/junit-4.12.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/junit-4.12.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/mybatis-3.4.5.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/mybatis-3.4.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/servlet-api.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/servlet-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/snakeyaml-1.17.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/testng-6.11.jar" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/lib/testng-6.11.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tlcc_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tlcc_war.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tlcc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tlcc_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/1a5791d9-ae12-4280-97da-3ce1e68600cb.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/1a5791d9-ae12-4280-97da-3ce1e68600cb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jtds_jtds_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jtds_jtds_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ServletContextListenerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ServletContextListenerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/comet4j/Comet4jUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/comet4j/Comet4jUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/domain/ControlMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/domain/ControlMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/domain/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/domain/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/domain/TCPMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/domain/TCPMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/domain/TCPMessageType.java" afterPath="$PROJECT_DIR$/src/main/java/com/domain/TCPMessageType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessThread.java" afterPath="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/socket/TcpSocketThread.java" afterPath="$PROJECT_DIR$/src/main/java/com/socket/TcpSocketThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/socket/UdpUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/socket/UdpUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/util/MybatisUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/util/MybatisUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Person.xml" afterPath="$PROJECT_DIR$/src/main/resources/Person.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/framework7.ios.colors.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/framework7.ios.colors.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/framework7.ios.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/framework7.ios.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/ipadweb.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/ipadweb.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/mpweb.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/mpweb.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/framework7/framework7.ios.colors.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/framework7/framework7.ios.colors.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/framework7/framework7.ios.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/framework7/framework7.ios.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/framework7/framework7.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/framework7/framework7.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/comet4j.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/comet4j.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/framework7.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/framework7.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/ipadweb.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/ipadweb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/mpweb.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/mpweb.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/nettest.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/nettest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/reacttest.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/reacttest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/comet4jtest.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/comet4jtest.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/error.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/error.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/ipadweb.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/ipadweb.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/mpweb.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/mpweb.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/reacttest.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/reacttest.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/properties/apartment1.json" afterPath="$PROJECT_DIR$/src/main/webapp/properties/apartment1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/properties/languages.json" afterPath="$PROJECT_DIR$/src/main/webapp/properties/languages.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/properties/strings.properties" afterPath="$PROJECT_DIR$/src/main/webapp/properties/strings.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/properties/strings_en.properties" afterPath="$PROJECT_DIR$/src/main/webapp/properties/strings_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/properties/strings_zh.properties" afterPath="$PROJECT_DIR$/src/main/webapp/properties/strings_zh.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/test/reacttest.html" afterPath="$PROJECT_DIR$/src/main/webapp/test/reacttest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/UserTest.java" afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Person.xml" afterPath="$PROJECT_DIR$/target/classes/Person.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/tlcc/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/Person.xml" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/Person.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/css/framework7.ios.colors.min.css" afterPath="$PROJECT_DIR$/target/tlcc/css/framework7.ios.colors.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/css/framework7.ios.min.css" afterPath="$PROJECT_DIR$/target/tlcc/css/framework7.ios.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/css/ipadweb.css" afterPath="$PROJECT_DIR$/target/tlcc/css/ipadweb.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/index.jsp" afterPath="$PROJECT_DIR$/target/tlcc/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/js/framework7.min.js" afterPath="$PROJECT_DIR$/target/tlcc/js/framework7.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/js/ipadweb.js" afterPath="$PROJECT_DIR$/target/tlcc/js/ipadweb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/js/reacttest.js" afterPath="$PROJECT_DIR$/target/tlcc/js/reacttest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/pages/error.jsp" afterPath="$PROJECT_DIR$/target/tlcc/pages/error.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/pages/ipadweb.jsp" afterPath="$PROJECT_DIR$/target/tlcc/pages/ipadweb.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/pages/mpweb.jsp" afterPath="$PROJECT_DIR$/target/tlcc/pages/mpweb.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/pages/reacttest.jsp" afterPath="$PROJECT_DIR$/target/tlcc/pages/reacttest.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tlcc/test/reacttest.html" afterPath="$PROJECT_DIR$/target/tlcc/test/reacttest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlcc.iml" afterPath="$PROJECT_DIR$/tlcc.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -128,17 +277,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TCPMessageType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/TCPMessageType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-              <folding />
+              <folding>
+                <element signature="e#345#346#0" expanded="false" />
+                <element signature="e#372#373#0" expanded="false" />
+                <element signature="e#420#421#0" expanded="false" />
+                <element signature="e#452#453#0" expanded="false" />
+                <element signature="e#486#487#0" expanded="false" />
+                <element signature="e#516#517#0" expanded="false" />
+                <element signature="e#562#563#0" expanded="false" />
+                <element signature="e#600#601#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +296,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding />
+              <folding>
+                <element signature="e#492#493#0" expanded="false" />
+                <element signature="e#523#524#0" expanded="false" />
+                <element signature="e#571#572#0" expanded="false" />
+                <element signature="e#611#612#0" expanded="false" />
+                <element signature="e#643#644#0" expanded="false" />
+                <element signature="e#671#672#0" expanded="false" />
+                <element signature="e#713#714#0" expanded="false" />
+                <element signature="e#747#748#0" expanded="false" />
+                <element signature="e#778#779#0" expanded="false" />
+                <element signature="e#808#809#0" expanded="false" />
+                <element signature="e#851#852#0" expanded="false" />
+                <element signature="e#889#890#0" expanded="false" />
+                <element signature="e#923#924#0" expanded="false" />
+                <element signature="e#953#954#0" expanded="false" />
+                <element signature="e#999#1000#0" expanded="false" />
+                <element signature="e#1037#1038#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,21 +337,33 @@
       <file leaf-file-name="TCPMessageProcessThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="330">
               <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#256#257#0" expanded="false" />
+                <element signature="e#294#295#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCPMessageProcessUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCPMessageProcessUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessUtil.java">
+      <file leaf-file-name="tlcc.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tlcc.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,6 +389,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -343,9 +525,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1276" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -366,6 +547,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tlcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tlcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tlcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tlcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.jony.tlcc.controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -684,7 +894,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Production">
           <PATH>
@@ -769,34 +978,6 @@
             <PATH_ELEMENT USER_OBJECT="src/main">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlcc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlcc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlcc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlcc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.jony.tlcc.controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1443,7 +1624,10 @@
       <workItem from="1522065421603" duration="1344000" />
       <workItem from="1522115042704" duration="27000" />
       <workItem from="1522131483270" duration="9166000" />
-      <workItem from="1522142959253" duration="6000" />
+      <workItem from="1522142959253" duration="147000" />
+      <workItem from="1522662159263" duration="50000" />
+      <workItem from="1523156838848" duration="12000" />
+      <workItem from="1523240116683" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="Add mobile phone to be related.">
       <created>1520301237690</created>
@@ -1466,7 +1650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521113825690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add TCP message processing.">
+      <created>1522143061315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522143061315</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1502,7 +1693,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145791000" />
+    <option name="totallyTimeSpent" value="146034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1514,8 +1705,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1276" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1536,10 +1726,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33430657" sideWeight="0.4967051" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29902756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31340873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1589,7 +1779,8 @@
     <MESSAGE value="Add mobile phone to be related." />
     <MESSAGE value="Network test." />
     <MESSAGE value="Network test,created tcp." />
-    <option name="LAST_COMMIT_MESSAGE" value="Network test,created tcp." />
+    <MESSAGE value="Add TCP message processing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TCP message processing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1600,13 +1791,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Person.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1a5791d9-ae12-4280-97da-3ce1e68600cb/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1774,7 +1958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1810,12 +1993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4947#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1669#1670#0" expanded="false" />
-            <element signature="e#1696#1697#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1832,7 +2009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="104" column="33" lean-forward="false" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1933,7 +2109,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
+            <element signature="e#611#612#0" expanded="false" />
+            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
+            <element signature="e#851#852#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#999#1000#0" expanded="false" />
+            <element signature="e#1037#1038#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1941,25 +2134,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#345#346#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#420#421#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#516#517#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="330">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#256#257#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlcc.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
