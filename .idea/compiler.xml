@@ -9,8 +9,5 @@
         <module name="tlcc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="tlcc" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
