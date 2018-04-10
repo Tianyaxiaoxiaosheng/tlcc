@@ -31,6 +31,15 @@ public class TCPMessageProcessThread extends Thread{
                 case STATE:
                     TCPMessageProcessUtil.stateMessageProcessing(tcpMessage.getContent());
                     break;
+
+                case NONE:
+                    TCPMessageProcessUtil.noneMessageProcessing(tcpMessage.getContent());
+                    break;
+
+                case REGISTER_REPLY:
+                    TCPMessageProcessUtil.regReplyMessageProcessing(tcpMessage.getContent());
+                    break;
+
                     default:
             }
         }else {

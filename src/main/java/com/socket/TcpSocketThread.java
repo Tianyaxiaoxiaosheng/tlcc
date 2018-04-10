@@ -20,9 +20,10 @@ public class TcpSocketThread extends Thread {
     private BufferedReader in = null;
     private OutputStream out = null;
 
+    private boolean isReceive = true;
+
 
     private Timer timer = null;
-
 
 
     public TcpSocketThread(Socket socket) {
@@ -44,7 +45,7 @@ public class TcpSocketThread extends Thread {
     @Override
     public void run() {
 
-          //started heart beat
+        //started heart beat
 
         heartBeat();
 
@@ -52,7 +53,7 @@ public class TcpSocketThread extends Thread {
 
             String message = null;
 //            只有遇到"/r"、"/n"、"/r/n"才会返回
-            while ((message = in.readLine()) != null){
+            while (this.isReceive && (message = in.readLine()) != null) {
                 System.out.println("TCP Client Message:" + message);
 
                 new TCPMessageProcessThread(message).start();
@@ -71,7 +72,7 @@ public class TcpSocketThread extends Thread {
     public boolean sendMessage(String str) {
 
         try {
-            str = str+"\n";
+            str = str + "\n";
             out.write(str.getBytes());
             return true;
         } catch (IOException e) {
@@ -81,7 +82,7 @@ public class TcpSocketThread extends Thread {
         return false;
     }
 
-    private void heartBeat(){
+    private void heartBeat() {
 
         this.timer = new Timer();
 
@@ -89,9 +90,42 @@ public class TcpSocketThread extends Thread {
             @Override
             public void run() {
 
-                TCPMessageProcessUtil.codeHeartBeatMessageAndSend();
+                if (!(TCPMessageProcessUtil.codeHeartBeatMessageAndSend())){
+                    this.cancel();
+                }
             }
-        }, 10*1000, 10*1000);
+        }, 10 * 1000, 10 * 1000);
+
+    }
+
+    public void destory() {
+
+        System.out.println("Destory old TCP socket thread");
+
+        if (this.timer != null) {
+            this.timer.cancel();
+        }
+
+        this.isReceive = false;
+
+        try {
+
+            if (this.in != null) {
+                this.in.close();
+            }
+
+            if (this.out != null) {
+                this.out.close();
+            }
+
+            if (this.socket != null) {
+                this.socket.close();
+            }
+
+        } catch (IOException e) {
+
+        }
+
 
     }
 }

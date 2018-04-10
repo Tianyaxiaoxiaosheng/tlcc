@@ -56,6 +56,9 @@ public class TcpUtil {
                             String str = "TCP Client IP: "+socket.getInetAddress().getHostAddress()+"\tPort: "+socket.getPort();
                             System.out.println(str);
 
+                            if (tcpSocketThread != null)
+                                tcpSocketThread.destory();
+
                             tcpSocketThread = new TcpSocketThread(socket);
                             tcpSocketThread.start();
 

@@ -7,6 +7,7 @@ var cometConId = null;
 var cometConnUrl = "/tlcc/conn";
 var bindUrl = "/tlcc/bind.do";
 var sendUrl = "/tlcc/send.do";
+var registerUrl = "/tlcc/web/login.do";
 
 function controlMessage(clientId, content, rcuIp, rcuPort) {
     this.clientId = clientId;
@@ -75,6 +76,19 @@ function sendMessage() {
     );
 }
 
+function register(){
+    $.post(registerUrl,
+        {
+            username:"12345",
+            password:"666666"
+        },
+        function (data, status) {
+            $("#registerReturn").append("ajax Status: " + status+"\tReturn Data: " + data);
+            $("#registerReturn").append("<br/>");
+        }
+     );
+}
+
 
 $(document).ready(function () {
 
@@ -92,6 +106,11 @@ $(document).ready(function () {
     $('#bind').click(function () {
         bind();
     });
+
+    $('#register').click(function () {
+        register();
+    });
+
     $('#sendMessage').click(function () {
         sendMessage();
     });

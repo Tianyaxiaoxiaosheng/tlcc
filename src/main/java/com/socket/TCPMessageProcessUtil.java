@@ -1,6 +1,8 @@
 package com.socket;
 
 import com.comet4j.Comet4jUtil;
+import com.domain.RegReplyMessage;
+import com.domain.RegisterMessage;
 import com.domain.TCPMessage;
 import com.domain.TCPMessageType;
 import net.sf.json.JSONObject;
@@ -35,6 +37,17 @@ public class TCPMessageProcessUtil {
         return isSuccess;
     }
 
+    public static boolean codeRegisterMessageAndSend(RegisterMessage registerMessage){
+
+        boolean isSucess = false;
+
+        JSONObject jsonObject = JSONObject.fromObject(registerMessage);
+
+        isSucess = codeTCPMessageAndSend(TCPMessageType.REGISTER, jsonObject.toString());
+
+        return  isSucess;
+    }
+
     public static boolean codeHeartBeatMessageAndSend(){
 
         String content = String.valueOf(new Date().getTime());
@@ -46,6 +59,28 @@ public class TCPMessageProcessUtil {
         System.out.println("Heart Beat send "+isSuccess);
 
         return isSuccess;
+    }
+
+    static void regReplyMessageProcessing(String content){
+
+        JSONObject jsonObject = JSONObject.fromObject(content);
+
+        Object object = JSONObject.toBean(jsonObject, RegReplyMessage.class);
+
+        if (object instanceof RegReplyMessage){
+            RegReplyMessage regReplyMessage = (RegReplyMessage) object;
+
+            System.out.println("REGISTER REPLY MESSAGE： "+ regReplyMessage.toString());
+
+
+            boolean isSuccess = sharedComet4jUtil.sendMessageToAll("REGISTER REPLY MESSAGE： "+ regReplyMessage.toString());
+            System.out.println("Broadcast "+isSuccess);
+        }
+    }
+
+    static void noneMessageProcessing(String content){
+
+       System.out.println("NONE MESSAGE:" + content);
     }
 }
 

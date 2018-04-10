@@ -21,6 +21,7 @@
 <button type="button" id="startConn">start connect</button>
 <button type="button" id="dropConn">drop connect</button>
 <button type="button" id="bind">bind</button>
+<button type="button" id="register">register</button>
 <button type="button" id="sendMessage">send Message</button>
 
 <p>status:<span id="status"></span></p>
@@ -31,6 +32,10 @@
 
 <div id="bindReturn">
     <p>bind return:</p>>
+</div>
+
+<div id="registerReturn">
+    <p>register return:</p>>
 </div>
 
 <div id="sendReturn">

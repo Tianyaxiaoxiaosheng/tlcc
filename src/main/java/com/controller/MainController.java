@@ -1,6 +1,7 @@
 package com.controller;
 
 import com.comet4j.Comet4jUtil;
+import com.domain.RegisterMessage;
 import com.domain.TCPMessageType;
 import com.socket.TCPMessageProcessUtil;
 import org.springframework.stereotype.Controller;
@@ -29,7 +30,12 @@ public class MainController {
     public String webLogin(String username,String password) {
 
         System.out.println("login:username:"+username+"password:"+password);
-        return "webLogin server";
+
+        boolean isSuccess = TCPMessageProcessUtil.codeRegisterMessageAndSend(new RegisterMessage(username, password));
+
+        System.out.println("Register message send "+isSuccess);
+
+        return isSuccess+"";
     }
 
     @RequestMapping(value = "/ipadweb.do", method = RequestMethod.GET)
