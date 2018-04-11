@@ -2,8 +2,8 @@ package com.controller;
 
 import com.comet4j.Comet4jUtil;
 import com.domain.RegisterMessage;
-import com.domain.TCPMessageType;
-import com.socket.TCPMessageProcessUtil;
+import com.domain.MessageType;
+import com.socket.MessageProcessUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -31,7 +31,7 @@ public class MainController {
 
         System.out.println("login:username:"+username+"password:"+password);
 
-        boolean isSuccess = TCPMessageProcessUtil.codeRegisterMessageAndSend(new RegisterMessage(username, password));
+        boolean isSuccess = MessageProcessUtil.codeRegisterMessageAndSend(new RegisterMessage(username, password));
 
         System.out.println("Register message send "+isSuccess);
 
@@ -61,7 +61,7 @@ public class MainController {
     @ResponseBody
     public String send(String str){
 
-        boolean isSuccess = TCPMessageProcessUtil.codeTCPMessageAndSend(TCPMessageType.CONTROL, str);
+        boolean isSuccess = MessageProcessUtil.codeMessageAndSend(MessageType.CONTROL, str);
 
         return "send "+isSuccess;
     }

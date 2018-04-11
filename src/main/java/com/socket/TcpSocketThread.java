@@ -56,7 +56,7 @@ public class TcpSocketThread extends Thread {
             while (this.isReceive && (message = in.readLine()) != null) {
                 System.out.println("TCP Client Message:" + message);
 
-                new TCPMessageProcessThread(message).start();
+                new MessageProcessThread(message).start();
 //                boolean isSuccess = false;
 //                isSuccess = Comet4jUtil.getInstance().sendMessageToAll(message);
 //                sendMessage("status: "+isSuccess);
@@ -90,7 +90,7 @@ public class TcpSocketThread extends Thread {
             @Override
             public void run() {
 
-                if (!(TCPMessageProcessUtil.codeHeartBeatMessageAndSend())){
+                if (!(MessageProcessUtil.codeHeartBeatMessageAndSend())){
                     this.cancel();
                 }
             }

@@ -3,8 +3,8 @@ package com.socket;
 import com.comet4j.Comet4jUtil;
 import com.domain.RegReplyMessage;
 import com.domain.RegisterMessage;
-import com.domain.TCPMessage;
-import com.domain.TCPMessageType;
+import com.domain.Message;
+import com.domain.MessageType;
 import net.sf.json.JSONObject;
 
 import java.util.Date;
@@ -12,7 +12,7 @@ import java.util.Date;
 /**
  * Created by jony on 3/27/18.
  */
-public class TCPMessageProcessUtil {
+public class MessageProcessUtil {
 
     private static Comet4jUtil sharedComet4jUtil = Comet4jUtil.getInstance();
     private static TcpUtil sharedTcpUtil = TcpUtil.getInstance();
@@ -26,10 +26,10 @@ public class TCPMessageProcessUtil {
 
     }
 
-    public static boolean codeTCPMessageAndSend(TCPMessageType tcpMessageType, String content){
+    public static boolean codeMessageAndSend(MessageType messageType, String content){
 
-        TCPMessage tcpMessage = new TCPMessage(tcpMessageType, content);
-        JSONObject jsonObject = JSONObject.fromObject(tcpMessage);
+        Message message = new Message(messageType, content);
+        JSONObject jsonObject = JSONObject.fromObject(message);
 
         boolean isSuccess = sharedTcpUtil.sendByTcp(jsonObject.toString());
         System.out.println("TCP send "+isSuccess);
@@ -43,7 +43,7 @@ public class TCPMessageProcessUtil {
 
         JSONObject jsonObject = JSONObject.fromObject(registerMessage);
 
-        isSucess = codeTCPMessageAndSend(TCPMessageType.REGISTER, jsonObject.toString());
+        isSucess = codeMessageAndSend(MessageType.REGISTER, jsonObject.toString());
 
         return  isSucess;
     }
@@ -52,8 +52,8 @@ public class TCPMessageProcessUtil {
 
         String content = String.valueOf(new Date().getTime());
 
-        TCPMessage tcpMessage = new TCPMessage(TCPMessageType.HEART_BEAT, content);
-        JSONObject jsonObject = JSONObject.fromObject(tcpMessage);
+        Message message = new Message(MessageType.HEART_BEAT, content);
+        JSONObject jsonObject = JSONObject.fromObject(message);
 
         boolean isSuccess = sharedTcpUtil.sendByTcp(jsonObject.toString());
         System.out.println("Heart Beat send "+isSuccess);
