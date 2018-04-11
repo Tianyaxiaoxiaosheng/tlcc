@@ -7,15 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b92ee22-1ef5-495f-8d13-c28d0aeec675" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/TCPMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domain/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/TCPMessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domain/MessageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socket/TcpSocketThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socket/TcpSocketThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ServletContextListenerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ServletContextListenerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/socket/UdpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socket/UdpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletContextListenerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ServletContextListenerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/socket/UdpUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/socket/UdpUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/socket/UdpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/socket/UdpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tlcc.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/tlcc.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/ServletContextListenerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/ServletContextListenerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/UdpUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/UdpUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/UdpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tlcc/WEB-INF/classes/com/socket/UdpUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +39,8 @@
       <file leaf-file-name="TcpSocketThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TcpSocketThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="92" column="73" lean-forward="true" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
+            <state relative-caret-position="150">
+              <caret line="58" column="50" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -60,8 +66,8 @@
       <file leaf-file-name="MessageProcessThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/MessageProcessThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="116">
+              <caret line="43" column="67" lean-forward="true" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -69,26 +75,35 @@
       <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="221">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/MainController.java">
+      <file leaf-file-name="UdpUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/UdpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="63" column="92" lean-forward="true" selection-start-line="63" selection-start-column="92" selection-end-line="63" selection-end-column="92" />
+            <state relative-caret-position="134">
+              <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comet4jtest.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/comet4jtest.jsp">
+      <file leaf-file-name="ServletContextListenerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ServletContextListenerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="-224">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TcpUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="65" column="101" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -102,24 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegReplyMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/RegReplyMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding>
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageProcessUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MessageProcessUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/MessageProcessUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="306">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -129,9 +131,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>codeTCPMessageAndSend</find>
+      <find>startReceive</find>
     </findStrings>
     <replaceStrings>
       <replace>codeMessageAndSend</replace>
+      <replace>start</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -150,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessThread.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/comet4jtest.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/nettest.js" />
@@ -158,8 +161,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/socket/TCPMessageProcessUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/socket/TcpSocketThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/domain/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ServletContextListenerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/socket/UdpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/socket/MessageProcessUtil.java" />
       </list>
     </option>
   </component>
@@ -215,8 +222,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="50" />
+    <option name="x" value="35" />
+    <option name="y" value="65" />
     <option name="width" value="1276" />
     <option name="height" value="863" />
   </component>
@@ -463,6 +470,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m\IdeaProjects\tlcc\src\main\java\com\socket" />
       <recent name="C:\Users\m\IdeaProjects\tlcc\src\main\java\com\domain" />
       <recent name="C:\Users\m\IdeaProjects\tlcc" />
     </key>
@@ -625,7 +633,7 @@
       <updated>1523237609963</updated>
       <workItem from="1523237615549" duration="749000" />
       <workItem from="1523238443416" duration="35000" />
-      <workItem from="1523238596751" duration="25893000" />
+      <workItem from="1523238596751" duration="33630000" />
     </task>
     <task id="LOCAL-00001" summary="Created win branch.">
       <created>1523239187305</created>
@@ -641,15 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523330886503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Separate message processing function, and TCPMessage rename Message.">
+      <created>1523410730754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523410730754</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26677000" />
+    <option name="totallyTimeSpent" value="34414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="50" width="1276" height="863" extended-state="0" />
-    <editor active="true" />
+    <frame x="35" y="65" width="1276" height="863" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -740,7 +754,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created win branch." />
     <MESSAGE value="TCP communication basic completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="TCP communication basic completed." />
+    <MESSAGE value="Separate message processing function, and TCPMessage rename Message." />
+    <option name="LAST_COMMIT_MESSAGE" value="Separate message processing function, and TCPMessage rename Message." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/MessageType.java">
@@ -806,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/comet4jtest.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -828,13 +836,6 @@
             <element signature="e#857#858#0" expanded="true" />
             <element signature="e#896#897#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TcpSocketThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="92" column="73" lean-forward="true" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -861,29 +862,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/MessageProcessThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="116">
+          <caret line="43" column="67" lean-forward="true" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/UdpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/MessageProcessUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="153">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="63" column="92" lean-forward="true" selection-start-line="63" selection-start-column="92" selection-end-line="63" selection-end-column="92" />
+        <state relative-caret-position="270">
+          <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ServletContextListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TcpSocketThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/UdpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/TcpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="65" column="101" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/socket/MessageProcessUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>

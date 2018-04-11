@@ -1,122 +1,136 @@
 package com.socket;
 
-
 import java.io.IOException;
 import java.net.*;
 
 /**
- * Created by jony on 1/16/18.
+ * Created by jony on 2018/4/11.
  */
 public class UdpUtil {
 
-
-
-    private static final int INPORT = 5000; //本地端口
+    private  int serverPort = 0; //本地端口
     private DatagramSocket localSocket; //本地socket
     private boolean isReceive = true; //udp 接收标志
 
+    private InetAddress desAddress = null;
+    private int desPort = 0;
 
-    private UdpUtil(){
+    private UdpUtil() {
 
-        //localSocket init
-        try {
 
-            localSocket = new DatagramSocket(INPORT);
-        } catch (SocketException e) {
-            e.printStackTrace();
-        }
-
-//        startReceive();
     }
 
     //单类
     private static UdpUtil sharedUdpUtil = new UdpUtil();
-    public static UdpUtil getInstance(){
+
+    public static UdpUtil getInstance() {
         return sharedUdpUtil;
     }
 
 
+    public void setDesIp(String desIp){
+
+        try {
+            this.desAddress = InetAddress.getByName(desIp);
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+    public void setDesPort(int desPort) {
+        this.desPort = desPort;
+    }
+
+    public void setServerPort(int serverPort) {
+        this.serverPort = serverPort;
+    }
+
     /**
      * udp receive
      */
-    public void startReceive(){
+    public void start() {
 
+
+        //socket 创建
+        if (this.serverPort != 0){
+
+            try {
+
+                localSocket = new DatagramSocket(this.serverPort);
+            } catch (SocketException e) {
+                e.printStackTrace();
+            }
+        }else {
+            System.out.println("Out Udp server port is 0.");
+        }
+
+        //接收准备
         byte[] recvBuf = new byte[1024];
-        DatagramPacket recePacket = new DatagramPacket(recvBuf, recvBuf.length);
+        final DatagramPacket recePacket = new DatagramPacket(recvBuf, recvBuf.length);
 
-        if (localSocket == null){
-            System.out.println("localSocket is null");
+        if (localSocket == null) {
+            System.out.println("Out Udp localSocket is null");
             return;
         }
 
-        new Thread(){
-
-            @Override
+        new Thread(new Runnable() {
             public void run() {
 
-                System.out.println("Udp receive started !");
+                System.out.println("Out Udp receive started !");
 
                 try {
 
-                    System.out.println("UDP ip:"+ InetAddress.getLocalHost().getHostAddress()+"\tport:"+localSocket.getLocalPort());
+                    System.out.println("Out UDP ip:" + InetAddress.getLocalHost().getHostAddress() + "\tport:" + localSocket.getLocalPort());
 
                     while (isReceive){
                         localSocket.receive(recePacket);
                         String recvString = new String(recePacket.getData(), 0, recePacket.getLength());
-                        System.out.println("udp client receive:"+recvString);
-
-                        //测试发送
-                        send(recvString, "");
-
+                        System.out.println("Out Udp receive:" + recvString);
+                        new MessageProcessThread(recvString).start();
                     }
-
-                } catch (IOException e) {
-                    System.out.println("udp receive error");
+                }catch (Exception e){
                     e.printStackTrace();
-                } finally {
+                }finally {
                     localSocket.close();
                 }
 
             }
-        }.start();
+        }).start();
+
     }
 
 
-    private void stopReceive(){
+    private void stopReceive() {
 
         this.isReceive = false;
     }
 
-
     /**
-     * @param sendStr send string
-     * @param keyStr target
-     *@return Whether to transmit successfully
+     * @param sendStr       send string
+     * @return Whether to transmit successfully
      */
-   public boolean send(String sendStr, String keyStr){
+    public boolean send(String sendStr) {
 
-       String targetIp = "172.144.1.134";
-       int targetPort = 6000;
+        //检查地址合法性
+       if ((this.desAddress != null) && (this.desPort != 0) && (this.localSocket != null)){
 
-       InetAddress address = null;
-
-       try {
-           address = InetAddress.getByName(targetIp);
-           int port = targetPort;
            byte[] sendBuf = sendStr.getBytes();
+           DatagramPacket packet = new DatagramPacket(sendBuf, sendBuf.length, this.desAddress, this.desPort);
 
-           DatagramPacket packet = new DatagramPacket(sendBuf, sendBuf.length, address, port);
-           localSocket.send(packet);
-           return true;
-       } catch (UnknownHostException e) {
+           try {
 
-           e.printStackTrace();
-           return false;
-       } catch (IOException e) {
+               this.localSocket.send(packet);
+               return true;
+           } catch (IOException e) {
 
-           e.printStackTrace();
-           return false;
+               e.printStackTrace();
+           }
        }
 
-   }
+
+        return false;
+    }
+
 }

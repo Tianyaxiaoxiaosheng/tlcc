@@ -41,6 +41,7 @@ public class MessageProcessThread extends Thread{
                     break;
 
                     default:
+                        System.out.println("Unknown message type");
             }
         }else {
             System.out.println("Message error ! message:"+ this.message);

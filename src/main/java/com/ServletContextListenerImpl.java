@@ -12,14 +12,17 @@ import javax.servlet.ServletContextListener;
  */
 public class ServletContextListenerImpl implements ServletContextListener {
 
+    private static final int UDP_LOCALPORT = 7000;
+    private static final int UDP_DESPORT = 7000;
+
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
 
         Comet4jUtil.getInstance().initializationComet4j();
 
-//        socketInitialization();
-
         tcpServerInitialization();
+
+        udpInitialization();
     }
 
     @Override
@@ -27,13 +30,14 @@ public class ServletContextListenerImpl implements ServletContextListener {
 
     }
 
-    private void socketInitialization(){
+    private void udpInitialization(){
 
         System.out.println("UDP Socket Initialization");
         //启动udp接收
         UdpUtil sharedUdpUtil = UdpUtil.getInstance();
-        //开始接收消息
-        sharedUdpUtil.startReceive();
+        sharedUdpUtil.setServerPort(UDP_LOCALPORT);
+        sharedUdpUtil.setDesPort(UDP_DESPORT);
+        sharedUdpUtil.start();
     }
 
     private void tcpServerInitialization(){

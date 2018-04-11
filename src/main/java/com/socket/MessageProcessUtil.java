@@ -18,7 +18,7 @@ public class MessageProcessUtil {
     private static TcpUtil sharedTcpUtil = TcpUtil.getInstance();
 
     static void stateMessageProcessing(String content){
-        System.out.println(content);
+       // System.out.println(content);
 
         boolean isSuccess = false;
         isSuccess = sharedComet4jUtil.sendMessageToAll(content);
@@ -31,7 +31,22 @@ public class MessageProcessUtil {
         Message message = new Message(messageType, content);
         JSONObject jsonObject = JSONObject.fromObject(message);
 
-        boolean isSuccess = sharedTcpUtil.sendByTcp(jsonObject.toString());
+        boolean isSuccess = false;
+
+        switch (messageType){
+
+            case CONTROL:
+            case NONE:
+            case REGISTER:
+            case HEART_BEAT:
+                isSuccess = sharedTcpUtil.sendByTcp(jsonObject.toString());
+                break;
+
+                default:
+                    System.out.println("Unknown message Type.");
+
+        }
+
         System.out.println("TCP send "+isSuccess);
 
         return isSuccess;

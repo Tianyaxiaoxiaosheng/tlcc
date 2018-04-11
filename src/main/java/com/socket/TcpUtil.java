@@ -62,6 +62,9 @@ public class TcpUtil {
                             tcpSocketThread = new TcpSocketThread(socket);
                             tcpSocketThread.start();
 
+                            //设置udp 发送目标地址
+                            UdpUtil.getInstance().setDesIp(socket.getInetAddress().getHostAddress());
+
                             //给web客户端广播
                             Comet4jUtil.getInstance().sendMessageToAll(str);
 
